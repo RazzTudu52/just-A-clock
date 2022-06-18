@@ -13,7 +13,7 @@ function showTime() {
     }
     h = (h<10)?'0'+h:h;
     m = (m<10)?'0'+m:m;
-    s = (m<10)?'0'+m:m;
+    s = (m<10)?'0'+s:s;
     // setInterval(showTime, 1000);
 
         var time = h+":"+m+":"+s+" "+session;
